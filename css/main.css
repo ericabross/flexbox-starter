@@ -96,13 +96,13 @@ textarea {
    ========================================================================== */
 
 html {
-  background-color: #fff;
+  background-color: #b26791;
   height: 100%;
   width: 100%;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Questrial', sans-serif;
   padding: 0 2em;
   font-size: 1.25em;
   height: 100%;
@@ -111,13 +111,11 @@ body {
 
 header,
 footer {
-  background-color: #222;
   height: 80px;
   width: 100%;
 }
 
 main {
-  background-color: #ccc;
   height: 250px;
   width: 100%;
 }
@@ -130,21 +128,49 @@ main {
   align-items: center;
 }
 
+header, footer {
+  justify-content: flex-start;
+}
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  text-align: left;
+  font-size: 2em;
+}
+
+p {
+  margin-right: 0.75em;
+  margin-left: 2em;
+}
+
 #div-1,
 #div-2,
 #div-3 {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   color: #fff;
-  line-height: 1.5em;
-  font-size: 1.25em;
+  line-height: 1.25em;
+  font-size: 1em;
   height: auto;
 }
 
-.wrapper span {
-  font-family: 'Lora', sans-serif;
-  font-size: 1.3em;
+#div-2, #div-3 {
+  border-left: 2px solid #fff;
+}
+
+span {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 1em;
+}
+
+main {
+  border-bottom: 2px solid #fff;
+}
+
+
+footer {
+  border-top: 2px solid #fff;
 }
 
 .flex-container {
@@ -157,13 +183,18 @@ main {
 .flex-items {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   color: #fff;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #f16059;
   width: 30%;
   height: 200px;
+  margin-top:2em;
+  margin-bottom:2em;
+}
+
+i {
+  padding-right: 1em;
 }
 
 /* ==========================================================================
